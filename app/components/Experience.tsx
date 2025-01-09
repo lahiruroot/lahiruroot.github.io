@@ -19,7 +19,6 @@ const experiences = [
     period: 'Mar 2017 - Dec 2019',
     description: 'Developed and maintained multiple client-facing web applications using React and Node.js.',
   },
-
 ]
 
 const containerVariants = {
@@ -63,7 +62,9 @@ export default function Experience() {
           {experiences.map((exp, index) => (
             <motion.div
               key={index}
-              className={`mb-16 flex ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'} items-center w-full`}
+              className={`mb-16 flex flex-col sm:flex-row ${
+                index % 2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'
+              } items-center w-full`}
               variants={itemVariants}
             >
               {/* Timeline dot */}
@@ -73,7 +74,7 @@ export default function Experience() {
 
               {/* Content */}
               <motion.div
-                className="w-5/12 text-left px-8"
+                className="sm:w-5/12 w-full text-left px-4 sm:px-8"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: 'spring', stiffness: 300 }}
               >
@@ -99,7 +100,7 @@ export default function Experience() {
               </motion.div>
 
               {/* Spacer for layout */}
-              <div className="w-5/12"></div>
+              <div className="hidden sm:block sm:w-5/12"></div>
             </motion.div>
           ))}
         </motion.div>

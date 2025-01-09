@@ -1,3 +1,4 @@
+import Certifications from "./components/Certifications";
 import Experience from "./components/Experience";
 import Profile from "./components/Profile";
 import Technologies from "./components/Technologies";
@@ -8,6 +9,7 @@ export default function Home() {
     <>
      <Profile/>
      <Experience/>
+     <Certifications/>
      <Technologies/>
     </>
   )
