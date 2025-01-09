@@ -19,13 +19,7 @@ const experiences = [
     period: 'Mar 2017 - Dec 2019',
     description: 'Developed and maintained multiple client-facing web applications using React and Node.js.',
   },
-//   {
-//     company: 'StartUp Ventures',
-//     logo: '/nsbm.png',
-//     position: 'Junior Developer',
-//     period: 'Jun 2015 - Feb 2017',
-//     description: 'Assisted in the development of a mobile app that garnered over 100,000 downloads.',
-//   },
+
 ]
 
 const containerVariants = {

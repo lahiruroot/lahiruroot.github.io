@@ -26,7 +26,7 @@ export default function Header() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              im'Lahiru
+              im&apos;Lahiru
             </motion.span>
           </Link>
 
@@ -138,4 +138,3 @@ export default function Header() {
     </header>
   )
 }
-

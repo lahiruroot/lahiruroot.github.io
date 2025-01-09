@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaJs, FaReact, FaNodeJs, FaDocker, FaAws } from 'react-icons/fa';
+import { FaJs, FaReact, FaNodeJs, FaAws } from 'react-icons/fa';
 import { SiTypescript, SiFirebase, SiMongodb, SiNextdotjs, SiFlutter, SiGit, SiLinux, SiMeta } from 'react-icons/si';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 

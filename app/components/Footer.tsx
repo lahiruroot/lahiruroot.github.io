@@ -19,12 +19,12 @@ const socialLinks = [
     href: 'https://www.linkedin.com/in/lahiru98/',
     color: 'hover:text-[#0077b5]'
   },
-//   {
-//     name: 'Twitter',
-//     icon: Twitter,
-//     href: 'https://x.com/lahiruudawatht2',
-//     color: 'hover:text-[#1DA1F2]'
-//   },
+  {
+    name: 'Twitter',
+    icon: Twitter,
+    href: 'https://x.com/lahiruudawatht2',
+    color: 'hover:text-[#1DA1F2]'
+  },
   {
     name: 'Instagram',
     icon: Instagram,
