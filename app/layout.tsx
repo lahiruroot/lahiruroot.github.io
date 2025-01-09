@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "./components/res/theme-provider";
 import Header from "./components/Hader";
 import Footer from './components/Footer';
+import LoadingScreen from './components/LoadingScreen';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <LoadingScreen />
           <Header />
           <main>{children}</main>
           <Footer/>
