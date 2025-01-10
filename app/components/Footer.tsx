@@ -10,31 +10,31 @@ const socialLinks = [
   {
     name: 'GitHub',
     icon: Github,
-    href: 'https://github.com/lahiruroot',
+    href: 'https://github.com/johndoe',
     color: 'hover:text-[#333]'
   },
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    href: 'https://www.linkedin.com/in/lahiru98/',
+    href: 'https://linkedin.com/in/johndoe',
     color: 'hover:text-[#0077b5]'
   },
   {
     name: 'Twitter',
     icon: Twitter,
-    href: 'https://x.com/lahiruudawatht2',
+    href: 'https://twitter.com/johndoe',
     color: 'hover:text-[#1DA1F2]'
   },
   {
     name: 'Instagram',
     icon: Instagram,
-    href: 'https://x.com/lahiruudawatht2',
+    href: 'https://instagram.com/johndoe',
     color: 'hover:text-[#E4405F]'
   },
   {
     name: 'Email',
     icon: Mail,
-    href: '',
+    href: 'mailto:john@doe.com',
     color: 'hover:text-primary'
   }
 ]
@@ -86,7 +86,7 @@ export default function Footer() {
               className="flex items-center space-x-2"
             >
               <ExternalLink className="h-6 w-6 text-primary" />
-              <span className="text-2xl font-bold">Lahiru Udawaththa</span>
+              <span className="text-2xl font-bold">John Doe</span>
             </motion.div>
             <p className="text-muted-foreground">
               Building digital experiences that make a difference.
@@ -189,10 +189,11 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t">
           <p className="text-center text-sm text-muted-foreground">
-            © {year} lahiruroot. All rights reserved.
+            © {year} LahiruRoot. All rights reserved.
           </p>
         </div>
       </div>
     </footer>
   )
 }
+

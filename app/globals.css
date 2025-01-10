@@ -56,5 +56,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Add smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 

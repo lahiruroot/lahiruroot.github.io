@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { FaJs, FaReact, FaNodeJs, FaAws } from 'react-icons/fa';
-import { SiTypescript, SiFirebase, SiMongodb, SiNextdotjs, SiFlutter, SiGit, SiLinux, SiMeta } from 'react-icons/si';
+import { SiTypescript, SiFirebase, SiMongodb, SiNextdotjs, SiFlutter, SiGit,SiPostman ,SiLinux, SiMeta, SiFigma } from 'react-icons/si';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 
 const technologies = [
   { name: 'Next.js', icon: SiNextdotjs },
-  { name: 'React', icon: FaReact },
+  { name: 'React.js', icon: FaReact },
   { name: 'JavaScript', icon: FaJs },
   { name: 'TypeScript', icon: SiTypescript },
   { name: 'Node.js', icon: FaNodeJs },
@@ -16,8 +16,10 @@ const technologies = [
   { name: 'MongoDB', icon: SiMongodb },
   { name: 'AWS', icon: FaAws },
   { name: 'Git', icon: SiGit },
+  { name: 'Postman', icon: SiPostman },
   { name: 'Linux', icon: SiLinux },
   { name: 'Meta', icon: SiMeta },
+  { name: 'Figma', icon: SiFigma },
 ];
 
 export default function Technologies() {
